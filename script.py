@@ -187,13 +187,7 @@ def create_header(data: Data):
     )
 
 
-def create_footer():
-    return h("footer", klass="container")(
-        h("small")("Generated with "),
-        h("a", klass="", href="https://github.com/thevahidal/jake/", target="_blank")(
-            "Jake"
-        ),
-    )
+
 
 
 def generate_html(data: Data):
@@ -203,7 +197,6 @@ def generate_html(data: Data):
         h("body")(
             create_header(data),
             h("main", klass="container")(sections),
-            create_footer(),
         ),
     ).render()
 
