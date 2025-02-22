@@ -15,11 +15,11 @@ direction = "column"
 item_style = "outline"
 [[sections.items]]
 title = "The Hitchhiker’s guide to the blockchain"
-description = "A collection of videos and resources to help anyone become an expert in the field of blockchain technology and digital assets."
+description = "A collection of videos and resources to help anyone understand the basics of blockchain technology and digital assets."
 url = "https://medium.com/@cedricheidt/the-hitchhikers-guide-to-the-blockchain-a-collection-of-resources-e633a4e81a32"
 [[sections.items]]
 title = "Finzen"
-description = "All-in-one personal finance dashboard. Early access coming soon!"
+description = "All-in-one personal finance dashboard I'm working on. Early access coming soon!"
 url = "https://finzen.org/"
 [[sections.items]]
 title = "Linkedin"
